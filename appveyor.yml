@@ -9,5 +9,7 @@ install:
   # install modules
   - npm install
 
+test:
+  - node .
 # Don't actually build.
 build: off
